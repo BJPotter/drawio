@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T06:34:43.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="TCGz0D5yT0aLNq-MtxFg" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T07:18:47.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="v_sYO-p2re79MrQW68JH" version="22.1.18" type="github">
   <diagram name="第 1 页" id="62MiHRWMOWF4y2fa7YED">
-    <mxGraphModel>
+    <mxGraphModel dx="1954" dy="1170" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#f0f0f0" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillColor=#e6e6e6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="56" width="406" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-3" value="Businsee Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="323" y="66" width="194" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;labelBackgroundColor=default;fillColor=#ffaf65;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="258" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;fillColor=#ffaf65;" vertex="1" parent="1">
+          <mxGeometry x="459" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-6" value="Order Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;fontColor=#fbf9f9;" vertex="1" parent="1">
+          <mxGeometry x="288" y="132" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-7" value="Payment Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;fontColor=#fcf8f8;" vertex="1" parent="1">
+          <mxGeometry x="491" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;fontSize=20;fillColor=#ffaf65;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="281.5" y="310" width="277" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-12" value="Notification Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=20;fontColor=#0a0000;" vertex="1" parent="1">
+          <mxGeometry x="313" y="316.5" width="214" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-15" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeWidth=3;fillColor=#fa6800;strokeColor=#090301;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="192" as="sourcePoint" />
+            <mxPoint x="323" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-16" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeWidth=3;fillColor=#fa6800;strokeColor=#0f0400;movable=1;noJump=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523" y="192" as="sourcePoint" />
+            <mxPoint x="523" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-17" value="Single Notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="238" y="247" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-18" value="Batch Notification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="557" y="247" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-20" value="1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=15;fontStyle=1;fontColor=#fc5185;" vertex="1" parent="1">
+          <mxGeometry x="198" y="239" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDky8T-ukmgH-t4gTAe8-24" value="1.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fontColor=#fc5185;" vertex="1" parent="1">
+          <mxGeometry x="512" y="239" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
