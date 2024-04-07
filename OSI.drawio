@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T05:36:37.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.2" etag="hiPHQTzaFx-i5l3ktlWK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T07:21:48.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="euBnjeppJ7G9NlTT-8Tc" version="24.2.2" type="github">
   <diagram name="第 1 页" id="zce8Iakbi8fosPCT37Wt">
-    <mxGraphModel>
+    <mxGraphModel dx="1149" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2" y="63" width="973" height="573" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-1" value="Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="162" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-2" value="Presentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="227" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-3" value="Session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="292" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-4" value="Transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="357" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-5" value="Network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="422" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-6" value="DataLink" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="487" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-7" value="Physical" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="103" y="551.5" width="131" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-8" value="7 Layers of the OSI Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#080808;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="73" y="102" width="206" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-9" value="Protocol" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#080808;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="311" y="102" width="206" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-10" value="HTTP/FTP/SSH/SMTP/NFS/Telnet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="321" y="162" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-11" value="SSL/FTP/SSH/IAMP/MPEG/JPEG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="321" y="227" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-12" value="RPC/SCP/PPTP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="321" y="292" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-13" value="TCP/UDP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;fontFamily=Comic Sans MS;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="321" y="357" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-14" value="IP/ICMP/IPSec/IGMP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="321" y="422" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-15" value="Ethernet/PPP/LAN/ARP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="321" y="487" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-16" value="Ethernet/USB/HDMI/Bluetooth/Wi-Fi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;fontFamily=Comic Sans MS;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="321" y="552" width="242" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-19" value="提供软件服务（浏览器、邮件客户端）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="658" y="162" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-20" value="负责数据编码格式转换、加解密、解压缩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="658" y="227" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-21" value="负责建立会话和数据同步传输检查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="658" y="292" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-22" value="确保数据段的可靠传输、流量控制、错误控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="658" y="357" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-23" value="负责数据包的路由选址" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="658" y="422" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-24" value="&lt;div style=&quot;text-align: start; font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;负责数据帧的封装与解封装、网络内部流量控制和错误控制&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="655" y="487" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-25" value="通过物理介质进行比特流的传输" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontFamily=Comic Sans MS;fontSize=10;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="655" y="552" width="272" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="hrf4c1Iz9-tAlNHSyQwA-26" value="Purpose" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#080808;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="703" y="102" width="206" height="46" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
