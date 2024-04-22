@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T14:29:19.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YpA4ksJDZejSOx6OE72_" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T14:31:23.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="zmVgXwOcyGEcIMk_K84R" version="24.2.5" type="github">
   <diagram name="第 1 页" id="ef59C0vNTVqU1Ajk3fXu">
     <mxGraphModel dx="1990" dy="1330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="89jsnYPOZgPlY_dn5tGi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="89jsnYPOZgPlY_dn5tGi-7" target="89jsnYPOZgPlY_dn5tGi-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89jsnYPOZgPlY_dn5tGi-7" value="Collections" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="89jsnYPOZgPlY_dn5tGi-7" value="Collection" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="389" y="19" width="96" height="42" as="geometry" />
         </mxCell>
         <mxCell id="89jsnYPOZgPlY_dn5tGi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89jsnYPOZgPlY_dn5tGi-8" target="89jsnYPOZgPlY_dn5tGi-17">
