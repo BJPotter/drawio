@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T02:36:32.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gXG8oJgrRhJZMBgUAXKd" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T02:46:47.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gpQzGHLqrmi-AyHfwrvG" version="24.2.7" type="github">
   <diagram name="第 1 页" id="KeRVim8FPUtJoILA_i35">
-    <mxGraphModel dx="954" dy="558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="656" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="36" y="313" width="352" height="138" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="466" y="211" width="352" height="138" as="geometry" />
+          <mxGeometry x="684" y="216" width="352" height="138" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="149" y="132" width="20" height="120" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="149" y="322" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="573" y="220" width="20" height="120" as="geometry" />
+          <mxGeometry x="785" y="227" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-8" value="通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="180" y="132" width="75" height="24" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="59" y="370" width="75" height="24" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-11" value="代理对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="483" y="268" width="75" height="24" as="geometry" />
+          <mxGeometry x="693" y="273" width="75" height="24" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-12" value="切点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="180" y="232" width="75" height="24" as="geometry" />
@@ -41,10 +41,10 @@
           <mxGeometry x="178" y="370" width="75" height="24" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-14" value="执行切面类的通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="622" y="220" width="115" height="24" as="geometry" />
+          <mxGeometry x="820" y="221" width="115" height="24" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-15" value="执行目标对象方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="622" y="322" width="115" height="24" as="geometry" />
+          <mxGeometry x="824" y="324" width="115" height="24" as="geometry" />
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="398" y="208" width="38" height="155" as="geometry" />
@@ -60,6 +60,30 @@
         </mxCell>
         <mxCell id="2M8X2cpPcYSi4sutsWAT-22" value="目标对象执行要加切面通知的方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="266" y="367" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-26" value="织入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="447" y="275" width="75" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="641" y="206" width="38" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-28" value="JDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="550" y="207" width="75" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-29" value="CGLIB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="554" y="337" width="75" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="274" as="sourcePoint" />
+            <mxPoint x="550" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2M8X2cpPcYSi4sutsWAT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499" y="301" as="sourcePoint" />
+            <mxPoint x="543" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
