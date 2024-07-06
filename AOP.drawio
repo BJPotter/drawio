@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T02:46:47.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gpQzGHLqrmi-AyHfwrvG" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T15:19:47.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5TuyL5FFFfR-SEBqYBPR" version="24.2.7" type="github">
   <diagram name="第 1 页" id="KeRVim8FPUtJoILA_i35">
-    <mxGraphModel dx="1122" dy="656" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="930" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,30 @@
             <mxPoint x="499" y="301" as="sourcePoint" />
             <mxPoint x="543" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-33" value="&lt;div style=&quot;orphans: 4; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Spring容器根据配置文件或注解元数据创建Bean的实例。&lt;br&gt;如果是单例模式,容器只会创建一次。&lt;br&gt;如果是多例模式,每次请求都会创建一个新的实例。&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;orphans: 4; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 13px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="187" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-34" value="&lt;p style=&quot;orphans: 4;&quot;&gt;&lt;font color=&quot;#0f0f10&quot; style=&quot;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;容器根据配置文件或注解中指定的属性值和依赖关系设置Bean的属性值，这个过程称为依赖注入。&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="187" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-35" value="&lt;div style=&quot;orphans: 4; text-align: left;&quot;&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot; color=&quot;#050505&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;BeanNameAware&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot; color=&quot;#050505&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;BeanFactoryAware接口BeanPostProcessor前置处理InitializingBean&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot; color=&quot;#050505&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;init-method&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot; color=&quot;#050505&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;BeanPostProcessor后置处理&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="670" width="187" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-36" value="&lt;p style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Comic Sans MS&quot;&gt;如果Bean实现了DisposableBean接口,容器会在Bean销毁的时候调用destroy()方法。&lt;br&gt;如果在配置文件中指定了destroy-method,容器会调用指定的销毁方法。&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="670" width="187" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-37" value="实例化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-38" value="属性赋值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-39" value="初始化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="730" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2M8X2cpPcYSi4sutsWAT-40" value="销毁阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="620" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
