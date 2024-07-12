@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T07:49:49.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KapPeS3rFrpzoBL2tKqL" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T07:50:53.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d44YFpZy8TbDXr8FF5sT" version="24.6.3" type="github">
   <diagram name="第 1 页" id="Cu1COyaI0SZhT9thVV55">
     <mxGraphModel dx="1377" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="10" value="Slave6" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="610" y="83" width="72" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="C38dN_-tAuoiNzENGhhY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="11" value="16384 个哈希槽的三分之一" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="-70" width="200" height="30" as="geometry" />
@@ -79,8 +82,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="C38dN_-tAuoiNzENGhhY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C38dN_-tAuoiNzENGhhY-17" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C38dN_-tAuoiNzENGhhY-17" value="16384 个哈希槽的三分之一" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="-70" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C38dN_-tAuoiNzENGhhY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C38dN_-tAuoiNzENGhhY-18" target="8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C38dN_-tAuoiNzENGhhY-18" value="16384 个哈希槽的三分之一" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="-70" width="200" height="30" as="geometry" />
