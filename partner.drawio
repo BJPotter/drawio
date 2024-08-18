@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-17T15:22:12.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="LvmV_qffeZXerAsJ7QsZ" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-18T08:34:08.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="a6LGJxTSiUzrro-YE-ST" version="24.6.4" type="github">
   <diagram name="第 1 页" id="CqVpPU8AdswsC1ymNDtV">
     <mxGraphModel dx="954" dy="558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,8 +238,8 @@
         <mxCell id="V2ValQ4yn3JttlTY4KtU-82" value="修剪抢险班" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="425" y="484" width="67.5" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="V2ValQ4yn3JttlTY4KtU-83" value="水车班" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="425" y="515" width="67.5" height="22" as="geometry" />
+        <mxCell id="V2ValQ4yn3JttlTY4KtU-83" value="机械（运输、浇灌等）班" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="425" y="515" width="143" height="22" as="geometry" />
         </mxCell>
         <mxCell id="V2ValQ4yn3JttlTY4KtU-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2ValQ4yn3JttlTY4KtU-84" target="V2ValQ4yn3JttlTY4KtU-66">
           <mxGeometry relative="1" as="geometry">
